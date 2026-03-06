@@ -135,7 +135,7 @@ def fetch_galgame_keywords():
     return gal_keywords
 
 def fetch_streamer_keywords():
-    """获取主播/电竞圈关键词（易拉罐文化）"""
+    """获取主播/电竞圈关键词（易拉罐文化+CS圈）"""
     streamer_keywords = [
         # 核心主播
         "电棍", "otto", "侯国玉", "稳健棍", "吉吉国王",
@@ -192,6 +192,29 @@ def fetch_streamer_keywords():
         "这波我在第五层", "他在第一层",
         "博弈", "心理战",
         "预判", "反预判", "我预判了你的预判",
+        # CS圈 (Counter-Strike)
+        "niko", "虾ge", "NIKO-GE", "步枪手", "最长河",
+        "s1mple", "Simple", "尼禄", "电子哥",
+        " ZywOo", "zywoo", "小球球",
+        "Faze", "FaZe", "karrigan", "rain",
+        "G2", "NiKo", "m0NESY", "monesy",
+        "NAVI", "navi", "s1mple", "electronic",
+        "CT", "T", "警匪", "匪徒",
+        "AK47", "AK", "M4A1", "AWP", "大狙",
+        "甩枪", "盲狙", "秒蹲", "提前枪",
+        "ECO", "强起", "沙鹰", "吹风机",
+        "炼金", "开箱", "出金", "蓝精灵",
+        "完美", "完美世界", "5E", "B5",
+        "BHop", "跳箱子", "KZ", "加速",
+        "dust2", "inferno", "mirage", "nuke", "vertigo", "overpass",
+        "炼狱", "死城", "荒漠", "大厦", "列车",
+        "突破手", "自由人", "狙击手", "道具哥",
+        "爆头", "秒杀", "ace", "penta",
+        "frag", "rating", "ADR", "KAST",
+        "ELO", "定级赛", "老鹰", "菊花", "麦穗",
+        "ak暴打", "大地球", "麦乐迪",
+        "niko暴打", "NIKO暴打", "虾ge暴打",
+        "茄子和", "cf", "穿越火线",
     ]
     return streamer_keywords
 
